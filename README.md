@@ -18,7 +18,8 @@ This is a simple Node.js project that takes an input file that contains a list o
     
     `npm run smallTest` - will process a smaller subset of the `advertisers.txt` file
     
-    To run a different file run the following command changing the `path/to/file.txt` to your filepath.
+    To process a different file, run the following command changing the `path/to/file.txt` to your filepath.
+    
     `node index.js file=path/to/file.txt`
     
 
