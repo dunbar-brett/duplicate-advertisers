@@ -1,0 +1,14 @@
+{
+  "name": "duplicate-advertisers",
+  "version": "1.0.0",
+  "description": "Tool to find duplicate advertisers with a given .txt file",
+  "main": "index.js",
+  "scripts": {
+    "findDupes": "node index.js file=input/advertisers.txt",
+    "smallTest": "node index.js file=input/small-test.txt"
+  },
+  "author": "Brett Dunbar",
+  "dependencies": {
+    "fuzzball": "^2.1.2"
+  }
+}
