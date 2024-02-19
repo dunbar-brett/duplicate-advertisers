@@ -24,7 +24,7 @@ This is a simple Node.js project that takes an input file that contains a list o
 
 5. Read the output file
 
-    After your file was processed the tool writes to a `json` file in the `output` directory. I suggest using your favorite `json` viewer tool to view it.
+    After your file was processed the tool writes to a `JSON` file in the `output` directory. I suggest using your favorite `JSON` viewer tool to view it. I used [JSON Formatter](https://jsonformatter.org/json-viewer)
 
 ## If I was given more time...
 
