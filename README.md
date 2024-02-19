@@ -19,15 +19,18 @@ This is a simple Node.js project that takes an input file that contains a list o
     `npm run smallTest` - will process a smaller subset of the `advertisers.txt` file
     
     To process a different file, run the following command changing the `path/to/file.txt` to your filepath.
-    
+
     `node index.js file=path/to/file.txt`
-    
+
+5. Read the output file
+
+    After your file was processed the tool writes to a `json` file in the `output` directory. I suggest using your favorite `json` viewer tool to view it.
 
 ## If I was given more time...
 
 1. First thing I would do is optimize the `findDuplicates` function. It's a brute force, quadradic time complexity, method. Comparing pairs of strings is painfully slow and finding a way to reduce redundant comparisons would improve the process a substantial amount.
 
-2. I would add more options to the script. For example, adding an option to configure the `similarity ratio` would be pretty simple to implement and allow the user to find a ratio to get a list of duplicates they're satisfied with. At the moment it is set to 90%.
+2. I would add more options to the script. For example, adding an option to configure the `similarity ratio` would be pretty simple to implement and allow the user to find a ratio to get a list of duplicates they're satisfied with. At the moment it is set to 95%.
 
 3. Unit tests would be another huge thing I would add. This was a pretty slow process to test with input files, which is why I created a smaller file to test. Adding unit tests would give me more confidence that the functions are running the way I expect them to. 
 

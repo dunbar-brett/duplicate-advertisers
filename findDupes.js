@@ -17,7 +17,7 @@ function findDuplicates(advertisers) {
             
             // Compare the two names and get a fuzzy matching score
             const similarity = fuzz.ratio(name1, name2);
-            if (similarity > 90) {
+            if (similarity > 95) {
                 if (!potentialDuplicates[name1]) {
                     potentialDuplicates[name1] = [advertisers[i]];
                 }
