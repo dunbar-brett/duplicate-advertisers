@@ -14,7 +14,7 @@ This is a simple Node.js project that takes an input file that contains a list o
     `npm i`
 4. Process an input file
 
-    `npm run findDupes` - will process the large `advertisers.txt` file that was given
+    `npm run findDupes` - will process the large `advertisers.txt` file that was given (~10 minutes!)
     
     `npm run smallTest` - will process a smaller subset of the `advertisers.txt` file
     
