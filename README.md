@@ -22,3 +22,12 @@ This is a simple Node.js project that takes an input file that contains a list o
     `node index.js file=path/to/file.txt`
     
 
+## If I was given more time...
+
+1. First thing I would do is optimize the `findDuplicates` function. It's a brute force, quadradic time complexity, method. Comparing pairs of strings is painfully slow and finding a way to reduce redundant comparisons would improve the process a substantial amount.
+
+2. I would add more options to the script. For example, adding an option to configure the `similarity ratio` would be pretty simple to implement and allow the user to find a ratio to get a list of duplicates they're satisfied with. At the moment it is set to 90%.
+
+3. Unit tests would be another huge thing I would add. This was a pretty slow process to test with input files, which is why I created a smaller file to test. Adding unit tests would give me more confidence that the functions are running the way I expect them to. 
+
+4. Finally, I wouldn't mind cleaning up and abstracting the code a bit more. Adding a `utils` file for reading and writing to files would be nice. I just like the idea of a clean `index.js` file that just handles the command line processing for the user.
