@@ -28,7 +28,7 @@ This is a simple Node.js project that takes an input file that contains a list o
 
 ## If I was given more time...
 
-1. First thing I would do is optimize the `findDuplicates` function. It's a brute force, quadradic time complexity, method. Comparing pairs of strings is painfully slow and finding a way to reduce redundant comparisons would improve the process a substantial amount.
+1. First thing I would do is optimize the `findDuplicates` function. It's a brute force method with quadradic time complexity. Comparing pairs of strings is painfully slow and finding a way to reduce redundant comparisons would improve the process a substantial amount.
 
 2. I would add more options to the script. For example, adding an option to configure the `similarity ratio` would be pretty simple to implement and allow the user to find a ratio to get a list of duplicates they're satisfied with. At the moment it is set to 95%.
 
